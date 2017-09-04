@@ -21,7 +21,7 @@ defmodule Badwords.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:benchee, "~> 0.9", only: :dev},
+      {:benchee, "~> 0.9"},
       {:flow, "~> 0.12.0"},
     ]
   end
